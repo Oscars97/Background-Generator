@@ -11,7 +11,7 @@ var body = document.querySelector("body");
     color2.addEventListener('input', setGradient);
     
     function setGradient() {
-        newStyle = "linear-gradient(to right,"+color1.value+", "+color2.value+")";
+        newStyle = "linear-gradient(to right, "+color1.value+", "+color2.value+")";
         h3.innerHTML = "Current style is: background-image: "+newStyle;
         body.style.backgroundImage = newStyle;
     }
